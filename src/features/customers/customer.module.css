@@ -1,0 +1,53 @@
+/* customer.module.css */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #28a745;
+  --background-color: #f8f9fa;
+  --white-color: #ffffff;
+  --text-color: #343a40;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.inputs {
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
